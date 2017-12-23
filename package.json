@@ -1,0 +1,31 @@
+{
+  "name": "dirdoor",
+  "version": "0.1.1",
+  "description": "Node.js app",
+  "main": "./src/app.js",
+  "bin":{
+    "door":"bin/door"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzhx/door.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzhx/door/issues"
+  },
+  "homepage": "https://github.com/xzhx/door#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
+  }
+}
